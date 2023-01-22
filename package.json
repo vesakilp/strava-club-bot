@@ -1,23 +1,15 @@
 {
   "name": "strava-club-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "git@github.com:vesakilp/strava-club-bot.git",
+  "author": "Vesa Kilpiäinen <vesa.kilpiainen@solteq.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vesakilp/strava-club-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vesakilp/strava-club-bot/issues"
-  },
-  "homepage": "https://github.com/vesakilp/strava-club-bot#readme",
-  "dependencies": {
-    "express": "^4.18.2"
+  "devDependencies": {
+    "vercel": "^28.13.0"
   }
 }
